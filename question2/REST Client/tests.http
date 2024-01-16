@@ -1,0 +1,44 @@
+### Create a place
+######### NORMAL OPERATION  ###########
+
+### Read all pizzas
+GET http://localhost:3000/places
+
+### Read all places with File variable
+@baseUrl = http://localhost:3000
+GET {{baseUrl}}/places
+
+### Create a place
+POST {{baseUrl}}/places
+Content-Type: application/json
+
+{
+    "title":"AMEIKA",
+    "description":"hazam land"
+}
+
+### Create a user
+### Read all places with File variable
+@baseUrl = http://localhost:3000
+GET {{baseUrl}}/users/read
+
+### Create a place
+POST {{baseUrl}}/users
+Content-Type: application/json
+
+{
+    "name":"AMEIKA",
+    "email":"ham@zbouuub.be"
+}
+### Add Fav
+POST {{baseUrl}}/users/addFav
+Content-Type: application/json
+
+{
+    "name":"hamza",
+    "place":"Paris"
+}
+
+
+
+### Like a place

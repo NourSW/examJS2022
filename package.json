@@ -1,0 +1,19 @@
+{
+  "name": "examen_js",
+  "version": "1.0.0",
+  "description": "- Renommer le répertoire **examen_js** en **NOM_PRENOM**\r - Pour chaque question, utilisez le boilerplate offert. \r Vous allez devoir installer les packages pour faire fonctionner vos applications.\r N'hésitez pas à modifier ou ajouter tous les fichiers JS nécessaires.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NourSW/examJS2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NourSW/examJS2022/issues"
+  },
+  "homepage": "https://github.com/NourSW/examJS2022#readme"
+}
